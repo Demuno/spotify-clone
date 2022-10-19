@@ -16,7 +16,8 @@ export default function Login() {
       <main className={styles.loginPage}>
         <div>
           <h1>Streetfy</h1>
-          <p>Quer uma música para dançar enquanto limpa a casa? faça o login e começe a mexer!!</p>
+          <p>Quer uma música para dançar enquanto limpa a casa?</p>
+          <p>faça o login e começe a remexer!!</p>
         </div>
         <button onClick={() => signIn('spotify')} type="button"> <a href='http://localhost:8888'>
           Login com o Spotify
