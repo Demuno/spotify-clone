@@ -14,6 +14,5 @@ export function useSpotify() {
       spotifyAPI.setAccessToken(session.accessToken);
     }
   }, [session]);
-
   return spotifyAPI;
 }
